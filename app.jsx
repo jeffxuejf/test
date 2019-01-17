@@ -3,7 +3,7 @@ class Comment extends React.Component{
         return(
             <div>
                 <div>
-                    {this.props.children}
+                    {this.pops.children}
                 </div>
                 <div>
                    - {this.props.author}
